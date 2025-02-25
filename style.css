@@ -1,30 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Comfortaa:wght@300..700&display=swap');
-html{
-    scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Comfortaa:wght@300..700&display=swap");
+html {
+  scroll-behavior: smooth;
 }
 
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: "Comfortaa", serif;
-    //font-family: "Carattere", serif;
-}
-.nav-link{
-    color: white;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", serif;
+  //font-family: "Carattere", serif;
 }
 
-.nav-link:hover{
-    color: #aa8453;
+.swiper-slide img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
-.nav-link:active{
-    color: #aa8453 !important;
+.nav-link {
+  color: white;
 }
 
+.nav-link:hover {
+  color: #aa8453;
+}
 
-.swiper-slide img{
-    width: 100%;
-    height:100vh;
-    object-fit: cover;
+.nav-link:active {
+  color: #aa8453 !important;
 }
